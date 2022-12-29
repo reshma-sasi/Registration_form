@@ -1,0 +1,13 @@
+{% extends 'demo.html' %}
+
+{% block demopage %}
+  <form action="{% url 'logout' %}">
+
+    <h5>Hello welcome to home page</h5>
+    <p>succesfully login </p>
+    <br>
+
+    <button class="btn btn-outline-danger btn-lg px-5" type="submit">Log Out</button>
+    
+  </form>
+{% endblock  %}
